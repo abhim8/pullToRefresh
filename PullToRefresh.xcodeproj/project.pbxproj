@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE16DD831B56CFF800AE94BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16DD821B56CFF800AE94BC /* AppDelegate.swift */; };
+		AE16DD851B56CFF800AE94BC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16DD841B56CFF800AE94BC /* MasterViewController.swift */; };
+		AE16DD8A1B56CFF800AE94BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE16DD881B56CFF800AE94BC /* Main.storyboard */; };
+		AE16DD8C1B56CFF800AE94BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE16DD8B1B56CFF800AE94BC /* Images.xcassets */; };
+		AE16DD8F1B56CFF800AE94BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE16DD8D1B56CFF800AE94BC /* LaunchScreen.xib */; };
+		AE16DD9B1B56CFF800AE94BC /* PullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16DD9A1B56CFF800AE94BC /* PullToRefreshTests.swift */; };
+		AE16DDA51B56D01F00AE94BC /* CustomRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16DDA41B56D01F00AE94BC /* CustomRefreshControl.swift */; };
+		AE16DDAB1B58734500AE94BC /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16DDA81B58734500AE94BC /* FLAnimatedImage.m */; };
+		AE16DDAC1B58734500AE94BC /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16DDAA1B58734500AE94BC /* FLAnimatedImageView.m */; };
+		AE16DDB01B5875D000AE94BC /* Pull-to-refresh_P1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE16DDAE1B5875D000AE94BC /* Pull-to-refresh_P1.gif */; };
+		AE16DDB11B5875D000AE94BC /* Pull-to-refresh_P2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE16DDAF1B5875D000AE94BC /* Pull-to-refresh_P2.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE16DD951B56CFF800AE94BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE16DD751B56CFF800AE94BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE16DD7C1B56CFF800AE94BC;
+			remoteInfo = PullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE16DD7D1B56CFF800AE94BC /* PullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE16DD811B56CFF800AE94BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE16DD821B56CFF800AE94BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE16DD841B56CFF800AE94BC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AE16DD891B56CFF800AE94BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE16DD8B1B56CFF800AE94BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE16DD8E1B56CFF800AE94BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE16DD941B56CFF800AE94BC /* PullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE16DD991B56CFF800AE94BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE16DD9A1B56CFF800AE94BC /* PullToRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshTests.swift; sourceTree = "<group>"; };
+		AE16DDA41B56D01F00AE94BC /* CustomRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRefreshControl.swift; sourceTree = "<group>"; };
+		AE16DDA61B58734500AE94BC /* PullToRefresh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullToRefresh-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE16DDA71B58734500AE94BC /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		AE16DDA81B58734500AE94BC /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		AE16DDA91B58734500AE94BC /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		AE16DDAA1B58734500AE94BC /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		AE16DDAE1B5875D000AE94BC /* Pull-to-refresh_P1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Pull-to-refresh_P1.gif"; sourceTree = "<group>"; };
+		AE16DDAF1B5875D000AE94BC /* Pull-to-refresh_P2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Pull-to-refresh_P2.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE16DD7A1B56CFF800AE94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE16DD911B56CFF800AE94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE16DD741B56CFF800AE94BC = {
+			isa = PBXGroup;
+			children = (
+				AE16DD7F1B56CFF800AE94BC /* PullToRefresh */,
+				AE16DD971B56CFF800AE94BC /* PullToRefreshTests */,
+				AE16DD7E1B56CFF800AE94BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE16DD7E1B56CFF800AE94BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DD7D1B56CFF800AE94BC /* PullToRefresh.app */,
+				AE16DD941B56CFF800AE94BC /* PullToRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE16DD7F1B56CFF800AE94BC /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DD821B56CFF800AE94BC /* AppDelegate.swift */,
+				AE16DD841B56CFF800AE94BC /* MasterViewController.swift */,
+				AE16DDA41B56D01F00AE94BC /* CustomRefreshControl.swift */,
+				AE16DDAE1B5875D000AE94BC /* Pull-to-refresh_P1.gif */,
+				AE16DDAF1B5875D000AE94BC /* Pull-to-refresh_P2.gif */,
+				AE16DDAD1B58734A00AE94BC /* FLAnimatedImage */,
+				AE16DD881B56CFF800AE94BC /* Main.storyboard */,
+				AE16DD8B1B56CFF800AE94BC /* Images.xcassets */,
+				AE16DD8D1B56CFF800AE94BC /* LaunchScreen.xib */,
+				AE16DD801B56CFF800AE94BC /* Supporting Files */,
+				AE16DDA61B58734500AE94BC /* PullToRefresh-Bridging-Header.h */,
+			);
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		AE16DD801B56CFF800AE94BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DD811B56CFF800AE94BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE16DD971B56CFF800AE94BC /* PullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DD9A1B56CFF800AE94BC /* PullToRefreshTests.swift */,
+				AE16DD981B56CFF800AE94BC /* Supporting Files */,
+			);
+			path = PullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		AE16DD981B56CFF800AE94BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DD991B56CFF800AE94BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE16DDAD1B58734A00AE94BC /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				AE16DDA71B58734500AE94BC /* FLAnimatedImage.h */,
+				AE16DDA81B58734500AE94BC /* FLAnimatedImage.m */,
+				AE16DDA91B58734500AE94BC /* FLAnimatedImageView.h */,
+				AE16DDAA1B58734500AE94BC /* FLAnimatedImageView.m */,
+			);
+			name = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE16DD7C1B56CFF800AE94BC /* PullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE16DD9E1B56CFF800AE94BC /* Build configuration list for PBXNativeTarget "PullToRefresh" */;
+			buildPhases = (
+				AE16DD791B56CFF800AE94BC /* Sources */,
+				AE16DD7A1B56CFF800AE94BC /* Frameworks */,
+				AE16DD7B1B56CFF800AE94BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullToRefresh;
+			productName = PullToRefresh;
+			productReference = AE16DD7D1B56CFF800AE94BC /* PullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE16DD931B56CFF800AE94BC /* PullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE16DDA11B56CFF800AE94BC /* Build configuration list for PBXNativeTarget "PullToRefreshTests" */;
+			buildPhases = (
+				AE16DD901B56CFF800AE94BC /* Sources */,
+				AE16DD911B56CFF800AE94BC /* Frameworks */,
+				AE16DD921B56CFF800AE94BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE16DD961B56CFF800AE94BC /* PBXTargetDependency */,
+			);
+			name = PullToRefreshTests;
+			productName = PullToRefreshTests;
+			productReference = AE16DD941B56CFF800AE94BC /* PullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE16DD751B56CFF800AE94BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Abhishek Patel";
+				TargetAttributes = {
+					AE16DD7C1B56CFF800AE94BC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AE16DD931B56CFF800AE94BC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AE16DD7C1B56CFF800AE94BC;
+					};
+				};
+			};
+			buildConfigurationList = AE16DD781B56CFF800AE94BC /* Build configuration list for PBXProject "PullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE16DD741B56CFF800AE94BC;
+			productRefGroup = AE16DD7E1B56CFF800AE94BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE16DD7C1B56CFF800AE94BC /* PullToRefresh */,
+				AE16DD931B56CFF800AE94BC /* PullToRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE16DD7B1B56CFF800AE94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE16DDB11B5875D000AE94BC /* Pull-to-refresh_P2.gif in Resources */,
+				AE16DD8A1B56CFF800AE94BC /* Main.storyboard in Resources */,
+				AE16DD8F1B56CFF800AE94BC /* LaunchScreen.xib in Resources */,
+				AE16DD8C1B56CFF800AE94BC /* Images.xcassets in Resources */,
+				AE16DDB01B5875D000AE94BC /* Pull-to-refresh_P1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE16DD921B56CFF800AE94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE16DD791B56CFF800AE94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE16DDA51B56D01F00AE94BC /* CustomRefreshControl.swift in Sources */,
+				AE16DDAB1B58734500AE94BC /* FLAnimatedImage.m in Sources */,
+				AE16DD851B56CFF800AE94BC /* MasterViewController.swift in Sources */,
+				AE16DD831B56CFF800AE94BC /* AppDelegate.swift in Sources */,
+				AE16DDAC1B58734500AE94BC /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE16DD901B56CFF800AE94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE16DD9B1B56CFF800AE94BC /* PullToRefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE16DD961B56CFF800AE94BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE16DD7C1B56CFF800AE94BC /* PullToRefresh */;
+			targetProxy = AE16DD951B56CFF800AE94BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE16DD881B56CFF800AE94BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE16DD891B56CFF800AE94BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE16DD8D1B56CFF800AE94BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE16DD8E1B56CFF800AE94BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE16DD9C1B56CFF800AE94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE16DD9D1B56CFF800AE94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE16DD9F1B56CFF800AE94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PullToRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PullToRefresh/PullToRefresh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE16DDA01B56CFF800AE94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PullToRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PullToRefresh/PullToRefresh-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AE16DDA21B56CFF800AE94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PullToRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullToRefresh.app/PullToRefresh";
+			};
+			name = Debug;
+		};
+		AE16DDA31B56CFF800AE94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PullToRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullToRefresh.app/PullToRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE16DD781B56CFF800AE94BC /* Build configuration list for PBXProject "PullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE16DD9C1B56CFF800AE94BC /* Debug */,
+				AE16DD9D1B56CFF800AE94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE16DD9E1B56CFF800AE94BC /* Build configuration list for PBXNativeTarget "PullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE16DD9F1B56CFF800AE94BC /* Debug */,
+				AE16DDA01B56CFF800AE94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE16DDA11B56CFF800AE94BC /* Build configuration list for PBXNativeTarget "PullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE16DDA21B56CFF800AE94BC /* Debug */,
+				AE16DDA31B56CFF800AE94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE16DD751B56CFF800AE94BC /* Project object */;
+}
